@@ -1,0 +1,18 @@
+.resizable {
+  resize: both;
+  overflow: auto;
+  position: relative;
+}
+
+.resizable::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border-right: 2px solid #999;
+  border-bottom: 2px solid #999;
+  cursor: se-resize;
+}
