@@ -89,7 +89,7 @@
     "serverRuntimeConfig": {},
     "publicRuntimeConfig": {},
     "reactProductionProfiling": false,
-    "reactStrictMode": null,
+    "reactStrictMode": true,
     "reactMaxHeadersLength": 6000,
     "httpAgentOptions": {
       "keepAlive": true
@@ -105,7 +105,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\projects",
+    "outputFileTracingRoot": "C:\\projects\\Nextjs\\my-portfolio",
     "experimental": {
       "nodeMiddleware": false,
       "cacheLife": {
@@ -295,11 +295,11 @@
           ]
         }
       },
-      "root": "C:\\projects"
+      "root": "C:\\projects\\Nextjs\\my-portfolio"
     }
   },
   "appDir": "C:\\projects\\Nextjs\\my-portfolio",
-  "relativeAppDir": "Nextjs\\my-portfolio",
+  "relativeAppDir": "",
   "files": [
     ".next\\routes-manifest.json",
     ".next\\server\\pages-manifest.json",
