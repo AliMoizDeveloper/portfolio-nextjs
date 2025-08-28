@@ -8,7 +8,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Label } from "@/components/ui/label"
 import { CheckCircle } from "lucide-react"
 import { toast } from "sonner"
-import emailjs from "emailjs-com";
 
 interface FormData {
   name: string
